@@ -1,0 +1,139 @@
+body {
+    background-color: #edb415;
+}
+
+/* ENCABEZADO */
+
+.logo {
+    width: 300px;
+}
+
+.encabezado {
+    border-top: 20px solid #edb415;
+}
+
+.menuNav a {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+
+.menuNav a:hover {
+    background-color: rgb(171, 0, 0);
+    color: white;
+}
+
+/* Lista */
+
+nav>ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* FORMULARIO */
+
+form {
+    width: 450px;
+    margin: auto;
+    background: white;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+
+form h3 {
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+.boton {
+    background-color: rgb(29, 25, 40);
+    color: white;
+    padding: 20px;
+    border: none;
+}
+
+.boton:hover {
+    cursor: pointer;
+    background-color: rgb(87, 87, 67);
+}
+
+@media (max-width:400px) {
+    form{
+        width: 100%;
+    }
+}
+
+/* IMAGENES */
+
+h2 {
+    text-align: center;
+    margin: 50px 0px;
+    font-size: 2.0rem;
+}
+
+.imgwspp {
+    width: 100%;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+}
+
+.iconowspp {
+    max-width: 30%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.imgqr {
+    width: 100%;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+}
+
+.qrpolar {
+    max-width: 300%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.vidroRoto {
+    text-align: center;
+}
+
+.imgRoto {
+    width: 81%;
+    max-width: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* DIRECCION */
+
+iframe {
+    display: block;
+    margin: auto;
+}
